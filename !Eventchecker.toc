@@ -1,0 +1,6 @@
+## Interface: 100000
+## Title: Eventchecker
+## Notes: Just an event test
+## Version: 1
+## Author: Blizzard
+Eventchecker.lua
