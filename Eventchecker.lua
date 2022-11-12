@@ -106,11 +106,9 @@ local WhatType = {
 		if checkevent then
 			local check = tonumber(checkevent)
 			if WhatType[check] ~= nil then
-				valid = false
 				for key, value in pairs(WhatType) do
 					if check == key then
 					print("|cff00ff00Closing fired #|r".." "..(key).." ".."|cff00ff00=|r".." "..(value).." ".."|cff00ff00Player Interaction Type|r")
-					valid = true
 					end
 				end
 			else 
